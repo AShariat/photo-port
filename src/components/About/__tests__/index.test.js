@@ -10,6 +10,7 @@ import About from "..";
 // This will ensure that after each test, we won't have any leftover memory data that could give us false results.
 afterEach(cleanup);
 
+// Note that the describe function is not absolutely necessary for the test to run; it is used to organize tests into sections that are typically labeled with the element being tested.
 describe("About component", () => {
   // First Test. The first test will be the baseline to verify that the component is rendering. Notice in the preceding code block that we use the it function. In the first argument, a string declares what is being tested. In the second argument, a callback function runs the test. This is where we'll use the render function to render the About component using JSX. Alternatively, test can also be used interchangeably with it to create a test.
   it("renders", () => {
