@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <section>
+    <h1
+      data-testid="h1tag"
+    >
+      Portraits
+    </h1>
+    <p>
+      Portraits of people in my life
+    </p>
+    <div>
+      <div
+        class="flex-row"
+      >
+        <img
+          alt="Cat green eyes"
+          class="img-thumbnail mx-1"
+        />
+        <img
+          alt="Green parrot"
+          class="img-thumbnail mx-1"
+        />
+        <img
+          alt="Yellow macaw"
+          class="img-thumbnail mx-1"
+        />
+        <img
+          alt="Pug smile"
+          class="img-thumbnail mx-1"
+        />
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
