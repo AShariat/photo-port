@@ -13,7 +13,7 @@ const Modal = ({ onClose, currentPhoto }) => {
         />
         <p>{description}</p>
         <button type="button" onClick={onClose}>
-          Close this modal
+          Close
         </button>
       </div>
     </div>
